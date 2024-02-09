@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <Title>Header</Title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .search-wide {
+      width: 500px;
+    }
+
+    .nav {
+      background-color: rgba(128, 128, 128, 0.342);
+    }
+
+    .nav a {
+      color: black;
+      opacity: 0.6;
+    }
+
+    .nav a:hover {
+      background-color: rgba(128, 128, 128, 0.61);
+      color: black;
+      text-decoration: none;
+      opacity: 1;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="nav-link" aria-current="page" href="../index.html">
+        <img src="../images/Logo2.png" class="logo" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <a class="nav-link active" aria-current="page" href="#"></a>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 search-wide" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link log" href="../login.html">
+              <button class="btn btn-outline-secondary">Login</button>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link log ct" href="../cart.html">
+              <i class="fa-brands fa-opencart fa-2xl"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <ul class="nav nav-tabs " style="justify-content: center;">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../Allproducts.html">All Products</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Men</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="../men/allproducts.html">All products </a></li>
+        <li><a class="dropdown-item" href="../men/shirts.html">Shirts</a></li>
+        <li><a class="dropdown-item" href="../men/Hoodies.html">Hoodies</a></li>
+        <li><a class="dropdown-item" href="../men/pants.html">Pants</a></li>
+        <li><a class="dropdown-item" href="../men/footwear.html">Foot Wear</a></li>
+      </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+        aria-expanded="false">Women</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="../women/allproducts.html">All products </a></li>
+        <li><a class="dropdown-item" href="../women/dresses.html">Dresses</a></li>
+        <li><a class="dropdown-item" href="../women/kurtas.html">Kurtas</a></li>
+        <li><a class="dropdown-item" href="../women/pants.html">Pants</a></li>
+        <li><a class="dropdown-item" href="../women/skirts.html">Skirts</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../kids.html">Kids</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="../contact.html">Contact</a>
+    </li>
+  </ul>
+</body>
+<script src="code.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+</html>
